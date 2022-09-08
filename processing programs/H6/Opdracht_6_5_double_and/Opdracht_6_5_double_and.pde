@@ -10,7 +10,7 @@ void draw() {
   if(mousePressed && (mouseButton == LEFT)) {
     fill(0);
     stroke(0);
-    rect(mouseX,mouseY,20,20);
+    line(mouseX,mouseY,20,20);
   }
   else if(mousePressed && (mouseButton == RIGHT)) {
     fill (255);
