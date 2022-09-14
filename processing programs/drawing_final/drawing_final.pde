@@ -5,6 +5,7 @@ void setup() {
   background(255,255,255);
   
 }
+
 void draw() {
   if(mousePressed && (mouseButton == LEFT)) {
     fill(0);
